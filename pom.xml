@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.jlmorab.ms</groupId>
+		<artifactId>ms-parent</artifactId>
+		<version>0.1.1</version>
+	</parent>
+	
+	<artifactId>ms-common-tools</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<name>ms-common-tools</name>
+	<description>Common configuration and tools for web projects in a microservices environment</description>
+
+	<repositories>
+		<repository>
+			<id>github</id>
+			<name>GitHub jlmorab - Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/jlmorab/ms</url>
+		</repository>
+	</repositories>
+	
+	<dependencies>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+	</dependencies>
+</project>
