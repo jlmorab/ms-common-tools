@@ -11,7 +11,7 @@
 	</parent>
 
 	<artifactId>ms-common-tools</artifactId>
-	<version>0.2.0-SNAPSHOT</version>
+	<version>0.2.0</version>
 	<name>ms-common-tools</name>
 	<description>Common configuration and tools for web projects in a microservices environment</description>
 
