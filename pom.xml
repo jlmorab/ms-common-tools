@@ -7,11 +7,11 @@
 	<parent>
 		<groupId>com.jlmorab.ms</groupId>
 		<artifactId>ms-parent</artifactId>
-		<version>0.2.0</version>
+		<version>0.2.3</version>
 	</parent>
 
 	<artifactId>ms-common-tools</artifactId>
-	<version>0.2.0</version>
+	<version>0.3.0</version>
 	<name>ms-common-tools</name>
 	<description>Common configuration and tools for web projects in a microservices environment</description>
 
@@ -66,34 +66,10 @@
 		<dependency>
 			<groupId>com.jlmorab.ms</groupId>
 			<artifactId>ms-test-tools</artifactId>
-			<version>0.1.0</version>
+			<version>0.5.1</version>
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-api</artifactId>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-engine</artifactId>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-junit-jupiter</artifactId>
-			<scope>test</scope>
-		</dependency>
-		
 		<dependency>
 		    <groupId>org.hibernate.validator</groupId>
 		    <artifactId>hibernate-validator</artifactId>
